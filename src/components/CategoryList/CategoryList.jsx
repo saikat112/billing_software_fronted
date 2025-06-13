@@ -59,8 +59,7 @@ const CategoryList = () => {
                                 </div>
                                 <div>
                                     <button className="btn btn-danger btn-sm"
-                                    onClick={() => deleteByCategoryId(category.categoryId)} >
-
+                                        onClick={() => deleteByCategoryId(category.categoryId)} >
                                         <i className="bi bi-trash"></i>
                                     </button>
                                 </div>
